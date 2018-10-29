@@ -9,7 +9,8 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.6'
 # Use mysql as the database for Active Record
-gem 'pg'
+gem 'mysql2', '>= 0.3.18', '< 0.6.0'
+# gem 'pg'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
@@ -43,10 +44,10 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
-  gem 'mysql2', '>= 0.3.18', '< 0.6.0'
   gem 'selenium-webdriver'
   gem "capistrano", "~> 3.10", require: false
   gem "capistrano-rails", "~> 1.4", require: false
+  gem 'rvm-capistrano', require: false
 end
 
 group :development do

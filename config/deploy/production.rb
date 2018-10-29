@@ -59,6 +59,6 @@ server '34.244.6.90', user: 'ubuntu', roles: %w{web app}
 #     auth_methods: %w(publickey password)
 #     # password: "please use keys"
 #   }
-set :deploy_to, "/home/ubuntu/apps/loverealm-production"
-set :rails_env, "staging"
-set :branch, 'develop'
+set :deploy_to, "/home/ubuntu/apps/valamodistillery"
+set :rails_env, "production"
+set :branch, 'master'
