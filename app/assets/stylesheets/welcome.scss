@@ -1,0 +1,163 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+section.home-section-1 {
+  background: image-url('slide_bg.jpg') no-repeat top left fixed;
+}
+
+section.home-section-1 .home-section-content, section.home-section-1 p {
+  font-size: 18px;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.tislaamo {
+  margin-top: 240px;
+  padding-bottom: 40px;
+  width: 600px;
+  z-index: 999;
+}
+
+section.home-section-1, section.home-section-2, section.home-section-3, section.home-section-4, section.home-section-5, section.home-section-6, section.home-section-7, section.home-section-8 {
+  padding-top: 50px;
+}
+
+section.home-section-3 {
+  padding: 50px 0;
+  background-color: #ffffff;
+}
+
+.section-title {
+  color: #000 !important;
+  font-family: "Josefin Sans","Raleway",sans-serif;
+  /* text-shadow: 2px 1px #000; */
+  text-transform: uppercase;
+  font-size: 60px;
+  line-height: 82px;
+  margin-bottom: 0.67em;
+  font-weight: normal !important;
+  text-align: center;
+}
+
+.spirit {
+  margin-bottom: 40px;
+  margin-top: 35px;
+  width: 80%;
+}
+
+.one_half {
+  margin-right: 2%;
+  padding-bottom: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 3%;
+  width: 49%;
+}
+
+//.viiva {
+//  max-width: inherit;
+//}
+
+section.home-section-4 {
+  padding: 50px 0;
+  background: image-url('story_bg.jpg') no-repeat top left fixed;
+  background-color: #eeeeee;
+}
+
+.spirit_valitila {
+  margin-bottom: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  text-align: center;
+  width: 85%;
+}
+
+section.home-section-6 {
+  padding: 50px 0;
+  background: image-url('barrels_bg.jpg') no-repeat top left fixed;
+}
+
+.valamo5 {
+  max-width: 60% !important;
+}
+
+#content .cta-button.primary {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  /* background-image: linear-gradient(to bottom, #fcd02f 0%, #d69d00 92%, #bd8b00 100%); */
+  background-origin: padding-box;
+  background-position-x: 0;
+  background-position-y: 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+  color: black;
+  display: block;
+  font-size: 18px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 10px;
+  text-align: center;
+  width: 100%;
+  border: solid #000 1px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.max-width {
+  max-width: 100%;
+}
+
+section.home-section-8 {
+  padding: 50px 0;
+  background: image-url('bottle_group.jpg') no-repeat top left fixed;
+  background-color: #ffffff;
+}
+
+section.home-section-9 {
+  padding: 50px 0;
+  background-color: #ffffff;
+}
+
+.home-section-9 .page_container {
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  padding-bottom: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 3%;
+}
+
+section.home-section-9 .section-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #666666;
+}
+
+.section-title {
+  color: #000 !important;
+  font-family: "Josefin Sans","Raleway",sans-serif;
+  /* text-shadow: 2px 1px #000; */
+  text-transform: uppercase;
+  font-size: 60px;
+  line-height: 82px;
+  margin-bottom: 0.67em;
+  font-weight: normal !important;
+}
+
+section.home-section-10 {
+  background: image-url('monastery_bg.jpg') no-repeat top left fixed;
+}
+
+.tislaamo {
+  margin-top: 240px;
+  padding-bottom: 40px;
+  width: 600px;
+  z-index: 999;
+}
+
+.img_bottom_last {
+  margin-bottom: 200px !important;
+  width: 600px;
+}
