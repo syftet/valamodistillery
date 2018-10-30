@@ -20,7 +20,9 @@ ActiveAdmin.register Product do
   column :category
   column :price
   column "Image" do |product|
-   image_tag product.image.url, class: 'small_size'
+   if product.image.present?
+    image_tag product.image.url, class: 'small_size'
+  end
   end
   actions
  end
@@ -34,7 +36,9 @@ ActiveAdmin.register Product do
    row :category
    row :price
    row :image  do |product|
-    image_tag product.image.url, class: 'big_size'
+    if product.image.present?
+     image_tag product.image.url, class: 'big_size'
+    end
    end
   end
  end
